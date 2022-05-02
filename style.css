@@ -1,8 +1,12 @@
-h1{
+h3{
     background-color: rgb(12, 97, 126);
 }
+h1{
+    background-image: repeating-linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+    text-align: center;
+}
 body{
-    background-color:#12cc6c;
+    background-color:#e68e0aef;
 }
 
 @keyframes ColorChange {
