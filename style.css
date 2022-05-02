@@ -1,0 +1,38 @@
+h1{
+    background-color: rgb(12, 97, 126);
+}
+body{
+    background-color:#12cc6c;
+}
+
+@keyframes ColorChange {
+    0%   {background-color:red; }
+    25%  {background-color:yellow; }
+    50%  {background-color:blue; }
+    75%  {background-color:green; }
+  }
+h2 {
+    background-color: red;
+    animation-name: ColorChange;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  h4{
+      text-align: center ;
+  }
+
+  p {
+      border: 10px solid #999;
+      margin: 40px;
+  }
+  img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  table{
+      font-style: italic;
+  }
+  ul{
+      font-family: cursive;
+  }
